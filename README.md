@@ -38,5 +38,5 @@ The database is currently being hosted locally on Gabriella's laptop using the M
 
 ## Documents
 
-- **[Project Proposal:]** (https://docs.google.com/document/d/12Ix8yVL_Sy4ETD6KdvfhsMaz7Z_PPJoAvykygz-MwUA/edit)
-- **[Project Requirements:]** (https://docs.google.com/document/d/147LFp_p5uQFZJzLmJBxlh29JN7Pi4uCfpUV91k1qhw8/edit)
+- [Project Proposal](https://docs.google.com/document/d/12Ix8yVL_Sy4ETD6KdvfhsMaz7Z_PPJoAvykygz-MwUA/edit)
+- [Project Requirements](https://docs.google.com/document/d/147LFp_p5uQFZJzLmJBxlh29JN7Pi4uCfpUV91k1qhw8/edit)
