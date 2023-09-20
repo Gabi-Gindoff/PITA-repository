@@ -14,6 +14,11 @@ Key features:
 - Guide users through technology issues
 - Fallback to provide relevant resources
 
+
+## Backend - Database
+
+The database is currently being hosted locally on Gabriella's laptop using the MySql command line. The database will have information related to the Penn State Abington IT Department such as connecting to the wifi, troubleshooting with the projects, instructions on the WePaw printing system, and other common topics that student workers are frequently asked about.
+
 ## Repository Structure 
 
 - `/frontend`: Contains frontend code (TypeScript, HTML, CSS).
@@ -33,5 +38,5 @@ Key features:
 
 ## Documents
 
-- **Project Proposal:** https://docs.google.com/document/d/12Ix8yVL_Sy4ETD6KdvfhsMaz7Z_PPJoAvykygz-MwUA/edit
-- **Project Requirements:** https://docs.google.com/document/d/147LFp_p5uQFZJzLmJBxlh29JN7Pi4uCfpUV91k1qhw8/edit?userstoinvite=karenkaur429@gmail.com&sharingaction=manageaccess&role=writer
+- **[Project Proposal:]** (https://docs.google.com/document/d/12Ix8yVL_Sy4ETD6KdvfhsMaz7Z_PPJoAvykygz-MwUA/edit)
+- **[Project Requirements:]** (https://docs.google.com/document/d/147LFp_p5uQFZJzLmJBxlh29JN7Pi4uCfpUV91k1qhw8/edit)
