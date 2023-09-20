@@ -26,10 +26,10 @@
           - My plan for next week is to actually run the chatbot with given files as well as possibly integrating it into a website. Also have to donwload pytorch and any other nessaccary libraries and tools for creating the chatbot. 
         
   - ### Treasure:
-   - Last Week’s Goals:
+      - Last Week’s Goals:
          - Establishing a gameplan for how to create and implement a chatbot using Llama 2, while also researching for solutions on how to embed the chatbot into a webpage browser.
       - This Week's Progress & Issues:
-        - This week, we made some more progress on how to create the chatbot using Llama. Currently trying to download all of the necessary programs and softwares to get the chatbot up and running. We are also doing more research to see which method we would like to use to create a webpage while using python, considering between flask and django.
+          - This week, we made some more progress on how to create the chatbot using Llama. Currently trying to download all of the necessary programs and softwares to get the chatbot up and running. We are also doing more research to see which method we would like to use to create a webpage while using python, considering between flask and django.
       - Next Week’s Plan:
          - Next week, we plan to have the chatbot running with a clear idea of how we would like to approach the frontend interface. 
         
