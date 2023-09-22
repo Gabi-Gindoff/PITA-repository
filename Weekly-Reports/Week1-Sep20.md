@@ -50,6 +50,10 @@
            - Once the MySQL server installed start adding data's into the database. In order to process this I have to do more research on data entries to make it more efficient for the project. 
         
   - ### Katherine:
-      - Last Week’s Goals: 
-      - This Week's Progress & Issues: 
-      - Next Week’s Plan: 
+      - Last Week’s Goals:
+          - Last week we completed the requirements and use cases for the project, and I installed MySQL on my PC.
+      - This Week's Progress & Issues:
+          - I used microsoft access and MySQL in the past, so I'm focusing on familiarizing myself with that and database again.
+          - Also learning typescript as we might use that later. 
+      - Next Week’s Plan:
+          - Working with the data and getting it into the database.
