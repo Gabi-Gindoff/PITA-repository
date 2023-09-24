@@ -5,7 +5,7 @@ PITA (Penn State Abington IT Assistant) is an AI powered chatbot designed to ass
 
 ## About
 
-PITA is a chatbot for the Penn State Abington IT Student Workers to utilize when they are faced with an issue they can not solve and need additional assistance with troubleshooting for common IT issues. This chatbot will enable the IT student workers to quickly retrieve answers to help faculty and students in an efficient manner. PITA answers common IT issues and questions, looks up details in the knowledge base, and provides step by step solutions. PITA serves as a fast and personalized virtual IT assistant. PITA essentially serves as a virtual assistant to quickly answer common IT questions and issues. The chatbot provides an intuitive conversational interface for users to get help with troubleshooting, university software, and other technical problems.
+PITA is a chatbot for the Penn State Abington IT Student Workers to utilize when they are faced with an issue they can not solve and need additional assistance with troubleshooting for common IT issues. This chatbot will enable the IT student workers to quickly retrieve answers to help faculty and students in an efficient manner. PITA answers common IT issues and questions, looks up details in the knowledge base, and provides step by step solutions. PITA serves as a fast and personalized virtual IT assistant. The chatbot provides an intuitive conversational interface for users to get help with troubleshooting, university software, and other technical problems.
 
 Key features:
 
@@ -13,6 +13,15 @@ Key features:
 - Integration with IT Department database 
 - Guide users through solving technological issues
 - Interactive & easy to use interface
+
+
+## Use Cases
+1. Resource for IT student workers when presented with questions beyond their technical knowledge
+2. IT admins to determine if more training is necessary 
+3. Removing outdated data from the IT department database
+4. Adding new information to the IT department database
+5. IT department to keep track of common technical issues 
+6. Authenticating user IT admin
 
 
 ## Ideas
@@ -34,30 +43,30 @@ The key goals for the PITA chatbot project include:
 - Establish a platform that can be expanded with more capabilities over time
 
 
-## Backend - Database
-
-The database is currently being hosted locally on Gabriella's laptop using the MySql command line. The database will have information related to the Penn State Abington IT Department such as connecting to the wifi, troubleshooting with the projects, instructions on the WePaw printing system, and other common topics that student workers are frequently asked about. 
 
 ## Repository Structure
 
 In our main branch we have the following:
-- `WeeklyReports`: Contains our markdown files for our weekly updates.
-- `README`: High level description of our project.
+- `WeeklyReports`: Contains our markdown files for our weekly updates
+- `README`: Top level description of our project
   
 We plan to add the following branches:
-- `frontend`: Contains frontend code (TypeScript, HTML, CSS).
-- `database`: Includes database-related files and documentation.
-- `chatbot`: Houses chatbot code and Llama configuration.
-- `docs`: Documentation files, including setup and usage guides.
+- `frontend`: Contains frontend code for the webpage that will house the chatbot 
+- `backend`: Includes database-related files and documentation - database will include data regarding common tech issues such as printing using WePaw, connecting to the wifi, installing university software, two factor authentication, etc.
+- `chatbot`: Houses chatbot code and Llama configuration 
+- `docs`: Documentation files, including setup and usage guides
 
-## Team
+## Project Team
 
-- Gabriella Gindoff - Backend Engineer
-- Elizabeth Johney - Backend Engineer
-- Katherine Banis - Backend Engineer
-- Adam Christopher - Frontend Engineer
-- Treasure Davis - Frontend Engineer
-- Harkaren Kaur - Frontend Engineer
+Frontend Engineers:
+- Adam Christopher
+- Harkaren Kaur
+- Treasure Davis
+
+Backend Engineers:
+- Gabriella Gindoff
+- Elizabeth Johney
+- Katherine Banis
 
 
 ## Documents
