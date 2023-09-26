@@ -17,11 +17,11 @@
   
   - ### Adam:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Understanding and finding proper guides to set up and download the llama 2 chatbot. Mostly researched Llama and other chatbot resources.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Waiting for the machines to go up to install and run the chatbot with the proper hardware. I was able to install the chatbot on my laptop but ran into a memory issue with my GPU preventing me from running the program.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Once machines are up and running, I will install and run the chatbot. The next step would to be to integrate the bot into its own, public website to be accessed from anywhere.
         
   - ### Treasure:
       - Last Week’s Goals:
