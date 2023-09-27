@@ -41,9 +41,9 @@
         
   - ### Elizabeth:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Last week I had an issue with installing MySQL server in my personal machine. So after taking to Professor Nate, he suggested to use Redis and installed Redis. 
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  
       - Next Week’s Plan:
           -  ________________________________________________________________
         
