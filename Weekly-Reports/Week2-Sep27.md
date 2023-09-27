@@ -43,9 +43,9 @@
       - Last Week’s Goals:
           -  Last week I had an issue with installing MySQL server in my personal machine. So after taking to Professor Nate, he suggested to use Redis and installed Redis. 
       - This Week's Progress & Issues:
-          -  
+          -  This week planning to work with other Backend developers (Gabi and Katherine) to start working on the database. Also try to do more researches on how to use Redis and start working on it.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  If we get access to the IT department datas, planning to work on that and also talk to the backend team to decide the tables for databases and start work on that. 
         
   - ### Katherine:
       - Last Week’s Goals:
