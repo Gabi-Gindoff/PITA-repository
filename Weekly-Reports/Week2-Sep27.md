@@ -25,11 +25,11 @@
         
   - ### Treasure:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Attempted to download the Llama 2 program into my computer. Was not able to fully download the chatbot, so I tried looking into other solutions to getting the software onto my computer.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  While we are waiting for the provided machines to be available, I am currently still researching ways to integrate the Llama chatbot into a website. Preparing myself in advance for when we are able to have the chatbot up and running.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  By next week I hope to finally have the chatbot running and fully functional by using the provided machines. Hopefully from there, we can start making moves to have the chatbot hosted on a website. Making a decision on what we would like to use. Whether Python and Django/Flask, or Typescript and React.
           
   - ### Harkaren:
       - Last Week’s Goals:
