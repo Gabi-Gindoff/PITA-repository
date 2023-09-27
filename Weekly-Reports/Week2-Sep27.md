@@ -37,7 +37,7 @@
       - This Week's Progress & Issues:
           -  Gaining more knowledge on llama. Brainstorming on making a website thats needed using flask or django. Found some videos that I will watch to begin creating a map on where to begin 
       - Next Week’s Plan:
-          - In hopes of the chatbot being up and running, having everything working in my laptop. 
+          - In hopes of the chatbot being up and running for the website and also having everything working in my laptop with no issues.
         
   - ### Elizabeth:
       - Last Week’s Goals:
