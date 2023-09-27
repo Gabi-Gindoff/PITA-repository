@@ -33,11 +33,11 @@
           
   - ### Harkaren:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Downloading llama2 have having a better understanding on how to use it by watching youtube videos and researching. I had problems downloading llama onto my mac but was able to resolve these issues by using my windows laptop. 
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Gaining more knowledge on llama. Brainstorming on making a website thats needed using flask or django. Found some videos that I will watch to begin creating a map on where to begin 
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          - In hopes of the chatbot being up and running, having everything working in my laptop. 
         
   - ### Elizabeth:
       - Last Week’s Goals:
