@@ -49,8 +49,8 @@
         
   - ### Katherine:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Last week, I had MySQL downloaded on my PC. So I was refreshing my memory on SQL, waiting for the data.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Continue to refresh my memory on SQL. Hopefully work with Gabi to get access to the database, figure out what tables we will need and create an ER diagram.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Continue with the ER diagram, gaining access and working on the database. Hopefully get the data soon as that will help figure out what tables we need.
