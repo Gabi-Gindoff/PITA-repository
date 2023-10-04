@@ -33,7 +33,7 @@
           
   - ### Harkaren:
       - Last Week’s Goals:
-          -  Gaining more knowledge on llama. Brainstorming on making a website thats needed using flask or django. Found some videos that I will watch to begin creating a map on where to begin
+          - 
       - This Week's Progress & Issues:
           -  ________________________________________________________________
       - Next Week’s Plan:
