@@ -24,11 +24,11 @@
         
   - ### Treasure:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Researched ways to integrate the Llama chatbot into a website. Preparing in advance for when we are able to have the chatbot up and running.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  The chatbot is now running and is in the process of being used through the provided machines.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          - By next week, we hope to have a plan on how to integrate the chatbot into a website free of cost. Being able to use it through its own web-interface freely.
           
   - ### Harkaren:
       - Last Week’s Goals:
