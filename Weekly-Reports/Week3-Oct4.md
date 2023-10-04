@@ -32,12 +32,11 @@
           
   - ### Harkaren:
       - Last Week’s Goals:
-          -  Gaining more knowledge on llama. Brainstorming on making a website thats needed using flask or django. Found some videos that I will watch to begin creating a map on where to begin
+          -  Gaining more knowledge on llama. Brainstorming on making a website thats needed using flask or django. Found some videos that I will watch to begin creating a map on where to begin.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Was able to find a good starting for the website. There was a couple of youtube videos that I thought will be of great use (will share with frontend in class), still waiting on chatbot to run on machines. Maybe finally being able to pick which what we would like to use whether its django/flask with Python or typescript and react.
       - Next Week’s Plan:
-          -  ________________________________________________________________
-        
+          -  Hopefully the machines will begin to work by this week with the chatbot so we can begin to set up the website. Also meet iwth other front end members to decide on on which we will use to create the website. 
   - ### Elizabeth:
       - Last Week’s Goals:
           -  ________________________________________________________________
