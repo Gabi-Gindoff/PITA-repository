@@ -49,7 +49,7 @@
         
   - ### Katherine:
       - Last Week’s Goals:
-          -  Created a basic ER Diagram with tables and fields I think we'll need
+          -  Created a basic ER Diagram with tables and fields I think we'll need, relationships, and thought about potential queries.
       - This Week's Progress & Issues:
           -  This week I started on the database, used the ER Diagram to help create tables and included fields. I used MySQL workbench. I created the Account table for the user and included PSU ID as the primary key, but wondering if it's better to just do email because no one remembers their PSU ID. 
       - Next Week’s Plan:
