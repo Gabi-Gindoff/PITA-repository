@@ -2,10 +2,9 @@
   - ### Last Week’s Goals:
       -  For the backend, had a problem accessing the database that I created in MySql using the command line cause the same port was being used by another application so I created a new database using XXAMP and PhpMyAdmin. IT department is working to see if there is a way for them to give us a file with all the messages from the teams HelpDesk channel but are saying even they don't have the proper access for that. Started researching how to write our own webscrapper to use to get the messages off of teams and began some of the installations needed for this. As for the frontend, Adam was able to install all the proper llama 2 files correctly, but was unable to run the chatbot due to a lack of memory in the GPU. The same issue occurred for both the CPU and GPU versions of the bot. The first problem of pytorch and its corresponding virtual environment issues were solved with some other pip installations, but in the end I could not get the bot to run. I am currently waiting for the powerful school machines to go online so I can download the bot there.
   - ### This Week's Progress & Issues:
-      -  The backend is working on developing a webscraper to get all the messages on the IT helpDesk teams channel. Gabi was able to successfully install everything needed to webscrape the teams channel but ran into some issues with possibly needing to login to view the channel. Researched and learning how to use beautifulsoup4 and selenium to scrape the teams webpage. Now we are stuck on how to properly get the messages if a login is needed and errors with the current method. As for the frontent ---------------------------------------------------------------------------------------
+      -  The backend is working on developing a webscraper to get all the messages on the IT helpDesk teams channel. Gabi was able to successfully install everything needed to webscrape the teams channel but ran into some issues with possibly needing to login to view the channel. Researched and learning how to use beautifulsoup4 and selenium to scrape the teams webpage. Now we are stuck on how to properly get the messages if a login is needed and errors with the current method. As for the frontend, we are still waiting on the machines to go online. Until then, we are researching how to properly integrate the bot into a customizable website.
   - ### Next Week’s Plan:
-      -  The plan for the backend team is to finish up with the webscraper so we can deal with getting the data into the database. This includes organizing the data, importing it into the database, and making sure all data is correct and looks good. Once that is done we can work on connecting the database to the chatbot. For the frontedn -------------------------------------------------------------------------------
-
+      -  The plan for the backend team is to finish up with the webscraper so we can deal with getting the data into the database. This includes organizing the data, importing it into the database, and making sure all data is correct and looks good. Once that is done we can work on connecting the database to the chatbot. For the frontend, we plan on finalizing the integration process of the chatbot and the website and style the site as well. 
 # Contributions of individual team members
   - ### Gabriella:
       - Last Week’s Goals:
@@ -17,11 +16,11 @@
   
   - ### Adam:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Waiting for the machines to go up to install and run the chatbot with the proper hardware. I was able to install the chatbot on my laptop but ran into a memory issue with my GPU preventing me from running the program.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Still waiting on the machines to go up, as soon as they do, I will begin the process of running the chatbot on them. I will then begin to integrate the bot into its own, public website.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Clean up all of the issues of the integration process and properly log the download and integration process for future use.
         
   - ### Treasure:
       - Last Week’s Goals:
