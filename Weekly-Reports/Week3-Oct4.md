@@ -39,11 +39,11 @@
           -  Hopefully the machines will begin to work by this week with the chatbot so we can begin to set up the website. Also meet iwth other front end members to decide on on which we will use to create the website. 
   - ### Elizabeth:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  If we get access to the IT department datas, planning to work on that and also talk to the backend team to decide the                tables for databases and start work on that.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Started installing Visual Studio, python. Also will talk to Gabbie to understand more on how to proceed to the next                  step. 
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Planning to start adding data to databases. Also start learning SQL into more depth and start working on the codings. 
         
   - ### Katherine:
       - Last Week’s Goals:
