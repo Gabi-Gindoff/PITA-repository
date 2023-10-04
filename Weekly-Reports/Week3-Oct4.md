@@ -49,8 +49,8 @@
         
   - ### Katherine:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Created a basic ER Diagram with tables and fields I think we'll need
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  This week I started on the database, used the ER Diagram to help create tables and included fields. I used MySQL workbench. I created the Account table for the user and included PSU ID as the primary key, but wondering if it's better to just do email because no one remembers their PSU ID. 
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Hopefully work on putting the data into the database. I'm thinking if we sort the data by categories, we can include a category field in the Information table, and the chatbox can ask the user what category their question would be in to help narrow it down. Then create a query that selects information from the category.
