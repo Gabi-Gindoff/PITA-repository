@@ -33,11 +33,13 @@
           
   - ### Harkaren:
       - Last Week’s Goals:
-          - 
+      - Able to find a good starting for the website. There was a couple of youtube videos that I thought will be of great use (will share with frontend in class), still waiting on chatbot to run on machines. Maybe finally being able to pick which what we would like to use whether its django/flask with Python or typescript and react.
+        
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  This week we are still waiting on the machines to be running. We are attempting to find a free platform to use for the websites. We met over zoom and discussed briefly about the website with other front end members to decide on where we will begin to outline a bit of the website.
+     
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Hopefully the machines will begin to work by this week with the chatbot so we can begin to set up the website.
         
   - ### Elizabeth:
       - Last Week’s Goals:
