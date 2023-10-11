@@ -11,7 +11,7 @@
       - Last Week’s Goals:
           -  Last week I started on the webscraper. I began with all the installations, visual studio, python, pip. Had a problem with accesssing pip but was able to figure it out so now it works. Then I tried using beautifulsoup4 and requests to scrape the teams channel but it wasn't working. Did some research and realized I may need to pivot as the way the messages load on the webpage would not work with the way beautifulsoup was accessing it. So I switched to selenium, did more installations for selenium and chromedriver. Got it to work up to the point where it opens the teams url but think it gets stuck there because you need to login or open it with the teams app. Getting a couple errors. Having trouble figuring out how to get it to properly scrape the teams chat when it needs login info.
       - This Week's Progress & Issues:
-          -  This week I was able to get it to properly open the teams channel by loging in with my penn state credentials and read the last couple messages. Still having trouble with getting all the data off the channel but for now at least it is scraping the correct information. I installed the selenium-wire package due to the complexity of handling dynamic content in microsoft teams. I also worked on the software architecture assignment, where we determined the software architecture, software design and coding guidlines for our project.
+          -  This week I was able to get it to properly open the teams channel by logging in with my penn state credentials and read the last couple messages. Still having trouble with getting all the data off the channel but for now at least it is scraping the correct information. I installed the selenium-wire package due to the complexity of handling dynamic content in microsoft teams. I also worked on the software architecture assignment, where we determined the software architecture, software design and coding guidlines for our project.
       - Next Week’s Plan:
           -  The plan for next week is to continue working on the webscraper and hopefully finish it. Once all the data is collected and put into a file, figure out how to get that data into the database. Figure out how to organize and format the data in the database. Once data is in, we have to figure out how to connect the chatbot to the database.
   
@@ -51,8 +51,8 @@
         
   - ### Katherine:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          - made edits to the database, started looking into react
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  continue looking into react and how I'd implement it
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  work on implementing react and getting the data into the database
