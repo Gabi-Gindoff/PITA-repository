@@ -43,11 +43,11 @@
         
   - ### Elizabeth:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Started installing Visual Studio, python. Also talked to Gabbie to understand more on how to proceed to the next                  step.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  This week we worked on the software architecture assignment and talked to the group regarding project scheduling, coding gidlines etc. 
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Planning to start adding data to databases. Also start learning SQL into more depth and start working on the codings.
         
   - ### Katherine:
       - Last Week’s Goals:
