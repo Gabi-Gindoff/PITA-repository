@@ -25,11 +25,11 @@
         
   - ### Treasure:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Got the chatbot is now running and is in the process of being used through the provided machines.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Began researching free solutions and met via zoom on how to integrate it and host it into a website without the need to spend money.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  We plan on having a gameplan on how to have the chatbot hosted on its own webpage once the machines are working.
           
   - ### Harkaren:
       - Last Week’s Goals:
