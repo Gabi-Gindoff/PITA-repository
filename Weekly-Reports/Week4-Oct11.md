@@ -2,9 +2,9 @@
   - ### Last Week’s Goals:
       -  The backend worked on developing a webscraper to get all the messages on the IT helpDesk teams channel. Gabi was able to successfully install everything needed to webscrape the teams channel but ran into some issues with possibly needing to login to view the channel. Researched and learning how to use beautifulsoup4 and selenium to scrape the teams webpage. Now we are stuck on how to properly get the messages if a login is needed and errors with the current method. As for the frontend, we are still waiting on the machines to go online. Until then, we are researching how to properly integrate the bot into a customizable website.
   - ### This Week's Progress & Issues:
-      - Backend team continued working on the webscraper. Gabi was able to get it to login to the teams chat and scrape the last few messages. Problem with having it automatically scroll to get more than the last eight messages. Been doing some research and it has to do with the way teams is loaded on the webpage. As of right now, you have to scroll and stop at every message but this takes a while and is not a good way of getting all messages. Going to work on another way to see if we can load the data  a different way into the messages list. ------------------FRONTEND UPDATES--------------------
+      - Backend team continued working on the webscraper. Gabi was able to get it to login to the teams chat and scrape the last few messages. Problem with having it automatically scroll to get more than the last eight messages. Been doing some research and it has to do with the way teams is loaded on the webpage. As of right now, you have to scroll and stop at every message but this takes a while and is not a good way of getting all messages. Going to work on another way to see if we can load the data  a different way into the messages list. For the frontend, we are still waiting on the machines to go online. Until then, we are still looking into how to properly integrate the bot into a customizable website. We have found some good resources for the website's design and to integrate everything into it.
   - ### Next Week’s Plan:
-      -  The plan for the backend team is to finish with the webscraper so we can start getting the data into the database. This includes organizing the data, importing it into the database, and making sure all data is correct and looks good. Once that is done we can work on connecting the database to the chatbot.  ------------------FRONTEND UPDATES--------------------
+      -  The plan for the backend team is to finish with the webscraper so we can start getting the data into the database. This includes organizing the data, importing it into the database, and making sure all data is correct and looks good. Once that is done we can work on connecting the database to the chatbot. For the front end, we plan on finalizing the integration process of the chatbot and the website and ensuring it outputs data properly on the site.
 
 # Contributions of individual team members
   - ### Gabriella:
@@ -17,11 +17,11 @@
   
   - ### Adam:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Waited on the machines to go up, as soon as they do, I will begin the process of running the chatbot on them. I will then begin to integrate the bot into its own, public website.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Machines still are not up and running, I will do last week's goals this week once they are online with VScode
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Clean up all of the issues of the integration process and properly log the download and integration process for future use.
         
   - ### Treasure:
       - Last Week’s Goals:
