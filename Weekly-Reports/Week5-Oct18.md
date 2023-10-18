@@ -49,8 +49,8 @@
         
   - ### Katherine:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  looked into react 
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Met with Gabi and Elizabeth. Sounds like we're going to manually get about a year's worth of data from the microsoft teams chat, enter the questions, answers, and related category into excel. Then we're going to upload that into the database. Going to add the category field in the Information table. So going to start getting the data from the chat and putting it into excel.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Planning to continue getting data from the microsoft teams chat into excel
