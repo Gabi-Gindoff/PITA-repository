@@ -43,11 +43,11 @@
         
   - ### Elizabeth:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  This week we worked on the software architecture assignment and talked to the group regarding project scheduling,                    coding gidlines etc.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Planning to start adding data to databases. Also start learning SQL into more depth and start working on the codings.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Next week start looking through IT team messages to see what are the common issues that IT department faced in the past
         
   - ### Katherine:
       - Last Week’s Goals:
