@@ -33,11 +33,13 @@
           
   - ### Harkaren:
       - Last Week’s Goals:
-          - _____________________________________
+          - This week we are still waiting on the machines to be running. We are attempting to find a free platform to use for the websites. We met over zoom and discussed briefly about the website with other front end members to decide on where we will begin to outline a bit of the website.
+     
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  This week we are trying to still make the machines run but have started to work on the website. I provided the text in regards to the chat bot that explained what it will do and the contact for the IT department that will be implemented into the website.    
+      
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Hopefully this week the machines will be up running and the website will be done. 
         
   - ### Elizabeth:
       - Last Week’s Goals:
