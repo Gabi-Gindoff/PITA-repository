@@ -25,11 +25,11 @@
         
   - ### Treasure:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Began researching free solutions and met via zoom on how to integrate it and host it into a website without the need to spend money now that the chatbot are going to be able to run on the machines provided.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Currently in the process of creating the website that the chatbot will be hosted on.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Hopefully we can find a solution on how to integrate the chatbot onto a seperate website.
           
   - ### Harkaren:
       - Last Week’s Goals:
