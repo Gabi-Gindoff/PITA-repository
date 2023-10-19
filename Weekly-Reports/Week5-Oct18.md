@@ -17,11 +17,11 @@
   
   - ### Adam:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Waited for the machines to go up to run the chatbot 
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Finally ran the chatbot on the school machines, the goal of this week is to understand and replicate the process for the rest of the members in the group
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  After explaining the process to groupmates, work on integrating the bot into its own website. 
         
   - ### Treasure:
       - Last Week’s Goals:
