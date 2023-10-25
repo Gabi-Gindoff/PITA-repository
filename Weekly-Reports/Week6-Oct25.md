@@ -42,9 +42,9 @@
       - Last Week’s Goals:
           - Met with Gabi and Katherine to talk about the project and decided to go through IT teams chat and find the most common questions and answers and put that in the excel spreadsheet.  
       - This Week's Progress & Issues:
-          -  This week continue with the 
+          -  This week continue with filtering questions and answers from IT teams chat. 
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Hopefully by next week start connecting to database. 
         
   - ### Katherine:
       - Last Week’s Goals:
