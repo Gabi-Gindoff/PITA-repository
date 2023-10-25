@@ -6,5 +6,5 @@ import mysql.connector
 
 cnx = mysql.connector.connect(user='username', password='password',
                               host='127.0.0.1',
-                              database='employees')
+                              database='it_department')
 cnx.close()
