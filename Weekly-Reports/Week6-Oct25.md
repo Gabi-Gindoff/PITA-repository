@@ -35,7 +35,7 @@
       - Last Week’s Goals:
           - This week we are trying to still make the machines run but have started to work on the website. I provided the text in regards to the chat bot that explained what it will do and the contact for the IT department that will be implemented into the website.
       - This Week's Progress & Issues:
-          -  We currently have a basic website for the chatbot to be integrated to. Maybe will make modifications as needed. I will begin to start researching how to integrate the chatbot into the website by watching some youtube videos. Hopeully the machines will be running on each of our devices by then.  
+          -  We currently have a basic website for the chatbot to be integrated to. We will be making modifications to the website as needed. I will begin to start researching how to integrate the chatbot into the website by watching some youtube videos. Hopefully since the machines are running we will be able to connect the database, chatbot and website together. 
       - Next Week’s Plan:
           -  Since the machines are running we should be able to have the website, database and chatbot working together by this week. 
   - ### Elizabeth:
