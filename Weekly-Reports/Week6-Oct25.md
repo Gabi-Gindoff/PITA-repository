@@ -49,8 +49,8 @@
         
   - ### Katherine:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  I modified the database, added a category field to the Information table.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Recieved the data from Gabi in an excel spreadsheet. For some reason, it wouldn't import the data when I used MySQL workbench, so I copied it over to PHPAdmin, imported the data and that worked. I just need to upload it to the github.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Start working on getting the database connected to the chatbot.
