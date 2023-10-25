@@ -1,19 +1,19 @@
 # Team Report & Updates
   - ### Last Week’s Goals:
-      -  _____________________________________________________________
+      -  For the backend, Gabi tried finishing the webscraper but bumped into another problem with how Microsoft teams is loaded when loading it on a webpage. Wagenhoffer said we can scrap it and start manually adding data from the teams channel. Started going through to get relevant information in order to create proper tables for the database. For the frontend, we have finally been able to run llama 2 on the school machines. The goal of this week is making everyone understand how to connect to the machines and run it on their devices. After that, we will continue to work on designing the website.
   - ### This Week's Progress & Issues:
-      -  _____________________________________________________________
+      -  Gabi was able to manually go through the teams channel to pull relevant information to be stored in the database. At first I created the `it_department` database in MySql Server on my computer but we recreated the same database on Adam's laptop while he was connected to the workstation because we need it to be hosted on the workstation in order for everyone to be able to access it without Gabi opening a port for them on her laptop. After that Gabi and Adam worked together to try to connect the chatbot to the database but we not able to get it to work. We think the problem has to do with the server not currently being hosted properly on the workstation. Treasure created a website with the basic info for the chatbot. 
   - ### Next Week’s Plan:
-      -  _____________________________________________________________
+      -  Ensure the database is being hosted properly on the workstation and then connect the chatbot to the database. Make sure the chatbot can grab information from the database. Then we need to integrate the chatbot onto the website and get it fully working to the point where a user can enter in a question and an answer will be displayed.
 
 # Contributions of individual team members
   - ### Gabriella:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Last week I continued with the webscraper until I was having a problem with loading more than 10 messaged. I realized that it was because it is loaded dynamically and there is no way for it to automatically scroll to load more messages. After lots of googling and trying out various solutions, nothing seemed to work. Spoke to the professor and decided to start manually going through the teams channel and copying over the information we need for the chatbot. Decided on tables to include in the database that correspond to the categories of possible questions that the IT student workers encounter. 
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  This week I copied in all helpdesk questions and responses from this semester that would be useful for the chatbot to have access to. I created an excel sheet to store the data we wanted to include in our database and then used mySql to add the data into the database on MySql server. I realized that I don't want to open a port on my computer to give everyone access to my laptop as it opens my computer to risks of being hacked through the open portal. Going to try to connect to the workstation to host the database there and just recreate it using the script I created. 
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  My plan for next week is to get the databaase hosted on the workstation and then to connect the database to the chatbot so we can begin testing. If we have more time, I can add more data to the database but I want to focus on getting the basics working before adding more. 
   
   - ### Adam:
       - Last Week’s Goals:
