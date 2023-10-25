@@ -41,7 +41,7 @@
         
   - ### Elizabeth:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          - Met with Gabi and Katherine to talk about the project and decided to go through IT teams chat and find the most common questions and answers and put that in the excel spreadsheet.  
       - This Week's Progress & Issues:
           -  ________________________________________________________________
       - Next Week’s Plan:
