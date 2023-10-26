@@ -17,11 +17,11 @@
   
   - ### Adam:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Finally ran the chatbot on the school machines, the goal of this week is to understand and replicate the process for the rest of the members in the group
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          I tried to host a local database server on my laptop, but was unsuccessful in doing so due to the chatbot not being able to connect to the port. We have tried multiple solutions but found out that it is a problem with the workstations blocking ports.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Once the issue with the workstations is fixed, I will be able to connect the database to the chatbot so it can begin to answer queries. Lastly, the working chatbot will be integrated into Treasure's website. 
         
   - ### Treasure:
       - Last Week’s Goals:
