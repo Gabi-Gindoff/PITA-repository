@@ -25,11 +25,11 @@
         
   - ### Treasure:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Began the process of creating the website that the chatbot will be housed on.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  I created a website for the chatbot and used github pages to create a public link to access the website. I am currently working on making the chatbot interface so that it can be interactive with the user's inputs. Using HTML, CSS, and some javascript with ajax.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Next week we hope to combine the backend with the frontend, integrating the chatbot into the website successfully.
           
   - ### Harkaren:
       - Last Week’s Goals:
