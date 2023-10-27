@@ -1,0 +1,40 @@
+-- test cases
+
+-- show tables
+show tables;
+
+-- retrieve basic table information
+select * from account;
+select * from airesponse;
+select * from chat;
+select * from helpdesktickets;
+select * from message;
+
+-- retrieve help desk tickets for a specific category
+select * from helpdesktickets where category = 'Printer';
+
+-- retrieve messages for a specific chat
+select * from message where chatID = 1;
+
+-- retrieve airesponse for a specific chat and help desk ticket
+select * from airesponse where chatID = 1 and inforID = 44;
+
+-- retrieve account information for a specific email
+select * from account where email = '';
+
+-- retrieve messages with user information
+select * from message
+inner join account on message.email = account.email;
+
+-- retrieve help desk tickets with aiResponse
+select * from helpdesktickets 
+left join airesponse on helpdesktickets.inforID = airesponse.inforID;
+
+-- retrieve chat info with messages
+select * from chat
+left join message on chat.chatID = message.messageID;
+
+-- retrieve account info with messages and help desk tickets
+select * from account
+left join message on account.email = message.email
+left join helpdesktickets on account.email = helpdesktickets.email;
