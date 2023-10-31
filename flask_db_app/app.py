@@ -47,5 +47,4 @@ def add_data():
     return render_template('add_data.html')
 
 if __name__ == '__main__':
-    app.debug = True
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000, use_reloader=False, use_debugger=False)
