@@ -24,7 +24,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt
+        pip install -r flask_db_app/requirements.txt
 
     - name: Database setup
       run: |
