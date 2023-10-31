@@ -1,5 +1,4 @@
-#!/usr/bin/expect -f
-
+#!/bin/bash
  
 
 set timeout -1
