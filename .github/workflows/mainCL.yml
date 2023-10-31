@@ -22,8 +22,8 @@ jobs:
       with:
         python-version: 3.10.8  # Replace with your desired Python version
 
-    - name: Install expect
-      run: sudo apt-get update && sudo apt-get install -y expect
+    #- name: Install expect
+    #  run: sudo apt-get update && sudo apt-get install -y expect
       
     - name: Install dependencies
       run: |
@@ -35,11 +35,12 @@ jobs:
         python flask_db_app/pop_db.py
         # Set up your database here (e.g., create the test database, apply migrations).
 
+    - name: Run Unit Tests
+      run: |
+        pytest flask_db_app/test_app.py
+
     - name: Run flask app
       run: |
         chmod +x flask_db_app/expect_script.sh
         ./flask_db_app/expect_script.sh
 
-    - name: Run Unit Tests
-      run: |
-        pytest flask_db_app/test_app.py
