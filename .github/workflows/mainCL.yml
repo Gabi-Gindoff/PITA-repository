@@ -28,14 +28,14 @@ jobs:
 
     - name: Database setup
       run: |
-        python make_db.py
-        python pop_db.py
+        python flask_db_app/make_db.py
+        python flask_db_app/pop_db.py
         # Set up your database here (e.g., create the test database, apply migrations).
 
     - name: Run flask app
       run: |
-        python app.py
+        python flask_db_app/app.py
 
     - name: Run Unit Tests
       run: |
-        pytest test_add.py
+        pytest flask_db_app/test_app.py
