@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Help Desk Tickets</title>
+</head>
+<body>
+    <h1>Data from SQLite Database</h1>
+    <ul>
+        {% for row in data %}
+            <li>
+                Ticket ID: {{ row[0] }}<br>
+                Question: {{ row[1] }}<br>
+                Response: {{ row[2] }}<br>
+                Response Date: {{ row[3] }}<br>
+                Category: {{ row[4] }}<br>
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="/add_data">Add New Ticket</a>
+</body>
+</html>

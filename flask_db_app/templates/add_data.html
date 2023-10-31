@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Help Desk Ticket</title>
+</head>
+<body>
+    <h1>Add Help Desk Ticket</h1>
+    <form method="POST" action="/add_data">
+        <label for="question">Question:</label>
+        <textarea id="question" name="question" required></textarea><br>
+        <label for="response">Response:</label>
+        <textarea id="response" name="response" required></textarea><br>
+        <label for="responseDate">Response Date:</label>
+        <input type="date" id="responseDate" name="responseDate" required><br>
+        <label for="category">Category:</label>
+        <input type="text" id="category" name="category" required><br>
+        <input type="submit" value="Add Ticket">
+    </form>
+</body>
+</html>
