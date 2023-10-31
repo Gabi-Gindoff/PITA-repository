@@ -1,0 +1,41 @@
+name: CI Build
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8  # Replace with your desired Python version
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Database setup
+      run: |
+        python make_db.py
+        python pop_db.py
+        # Set up your database here (e.g., create the test database, apply migrations).
+
+    - name: Run flask app
+      run: |
+        python app.py
+
+    - name: Run Unit Tests
+      run: |
+        pytest test_add.py
