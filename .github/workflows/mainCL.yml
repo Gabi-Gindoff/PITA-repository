@@ -34,8 +34,8 @@ jobs:
 
     - name: Run flask app
       run: |
-        chmod +x expect_script.sh
-        ./expect_script.sh
+        chmod +x flask_db_app/expect_script.sh
+        ./flask_db_app/expect_script.sh
 
     - name: Run Unit Tests
       run: |
