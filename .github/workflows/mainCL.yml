@@ -39,18 +39,3 @@ jobs:
       run: |
         pytest flask_db_app/test_app.py
 
-    - name: Run flask app
-      run: |
-        python flask_db_app/app.py
-
-    - name: Stop Flask Server
-      run: |
-        # Find the Flask server process and send a signal to stop it
-        PID=$(pgrep -f "python flask_db_app/app.py")
-        if [ -z "$PID" ]; then
-          echo "Flask server is not running."
-        else
-          echo "Stopping Flask server..."
-          kill $PID
-        fi
-  
