@@ -41,6 +41,16 @@ jobs:
 
     - name: Run flask app
       run: |
-        chmod +x flask_db_app/expect_script.sh
-        ./flask_db_app/expect_script.sh
+        python flask_db_app/app.py
 
+    - name: Stop Flask Server
+      run: |
+        # Find the Flask server process and send a signal to stop it
+        PID=$(pgrep -f "python flask_db_app/app.py")
+        if [ -z "$PID" ]; then
+          echo "Flask server is not running."
+        else
+          echo "Stopping Flask server..."
+          kill $PID
+        fi
+  
