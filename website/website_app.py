@@ -18,6 +18,10 @@ def chat():
     msg = request.form["msg"]
     input = msg
 
+    chatbot_response = msg
+    
+    return chatbot_response
+
 
 
 
