@@ -1,50 +1,61 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, jsonify
 
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+import torch
+
+
+tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium")
+model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
+
+import sqlite3
+
+from flask import Flask, render_template, request, jsonify
+from dapp import app as database_app  # Import your "dapp.py" application
+
+from flask import Flask, render_template, request
 import sqlite3
 
 app = Flask(__name__)
 
 @app.route('/')
-def display_data():
-    # Connect to the database
-    conn = sqlite3.connect('it_Department')
+def index():
+    return render_template('chat2.html')
+
+@app.route('/get', methods=['POST'])
+def chat():
+    msg = request.form['msg']
+    response = get_chat_response(msg)
+    return response
+
+from difflib import SequenceMatcher
+
+def get_chat_response(user_input):
+    conn = sqlite3.connect('it_Department')  # Connect to the existing database
     cursor = conn.cursor()
 
-    # Query the data
-    #cursor.execute("SELECT name, age FROM my_table")
-    cursor.execute('SELECT * FROM HelpDeskTickets')
-    data = cursor.fetchall()
+    # Get the data from the HelpDeskTickets table
+    cursor.execute('SELECT question, response FROM HelpDeskTickets')
+    saved_responses = cursor.fetchall()
 
-    # Close the connection
+    best_score = 0
+    matched_response = "Sorry, I don't have a response to that."
+
+    # Iterate through the saved responses and find the most similar match for the user's input
+    for question, response in saved_responses:
+        similarity = SequenceMatcher(None, question.lower(), user_input.lower()).ratio()
+        if similarity > best_score:
+            best_score = similarity
+            matched_response = response
+
     conn.close()
 
-    # Pass the data to the template
-    return render_template('data.html', data=data)
+    # Set a similarity threshold, below which it might not be considered a match
+    if best_score < 0.5:
+        return "Sorry, I don't have a response to that."
+    else:
+        return matched_response
 
-@app.route('/add_data', methods=['GET', 'POST'])
-def add_data():
-    if request.method == 'POST':
-        question = request.form['question']
-        response = request.form['response']
-        responseDate = request.form['responseDate']
-        category = request.form['category']
-
-        # Connect to the SQLite database
-        conn = sqlite3.connect('it_Department')
-        cursor = conn.cursor()
-
-        # Insert the submitted data into the HelpDeskTickets table
-        cursor.execute("INSERT INTO HelpDeskTickets (question, response, responseDate, category) VALUES (?, ?, ?, ?)",
-                       (question, response, responseDate, category))
-
-
-        # Commit the changes and close the connection
-        conn.commit()
-        conn.close()
-
-        return redirect(url_for('display_data'))  # Redirect to display the updated data
-
-    return render_template('add_data.html')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5001)  # Run the chatbot app on a different port than the dapp.py
