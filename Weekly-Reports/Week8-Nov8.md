@@ -47,11 +47,11 @@
       - Next Week’s Plan:
           -  Next week finish alpha release and talk to the team regarding the next step in this project. 
         
-  - ### Katherine:
+ - ### Katherine:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Tested within the database to make sure basic queries worked. Then made test cases using pytest.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Was unable to meet with group this week, plan to talk to Gabi about what I should work on specifically.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Need to talk to group regarding next steps.
 
