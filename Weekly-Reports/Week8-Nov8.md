@@ -23,13 +23,13 @@
       - Next Week’s Plan:
           -  ________________________________________________________________
         
-  - ### Treasure:
+ - ### Treasure:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  We switched to Dialo GPT and connected the chatbot to the database. Allowing the chatbot to answer questions stored in the database accurately.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  This week we are working on trying to implement a login system for both users and an admin. Allowing the users to login via ID, and allowing the admin to view the user history logs according to user ID.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Next week we would like to finalize the chatbot and have the log in system fully functional. From there, we can start fine-tuning and finishing up our chatbot application.
           
   - ### Harkaren:
       - Last Week’s Goals:
