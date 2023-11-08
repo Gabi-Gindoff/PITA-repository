@@ -17,11 +17,11 @@
   
   - ### Adam:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Gabi and I got a sqlite server up and running through flask and github codespaces. We also got CI up and running with a successful build
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Pivoted from Llama Dialo gpt to actually get a working bot. The bot is fully integrated into the website but does not give perfect responses. I am currently testing inputs as well as trying to establish a simple build system.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Have a fully working build system with working pytest tests. Another plan is to train the bot / use the new chatgpt agent to get better answers with different inputs.
         
  - ### Treasure:
       - Last Week’s Goals:
