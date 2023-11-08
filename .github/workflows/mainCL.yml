@@ -33,10 +33,14 @@ jobs:
           
     - name: Database setup
       run: |
-        poetry run python flask_db_app/make_db.py
-        poetry run python flask_db_app/pop_db.py
+        cd flask_db_app
+        poetry run python make_db.py
+        poetry run python pop_db.py
+        cd ..
 
     - name: Run Unit Tests
       run: |
-        pytest flask_db_app/test_app.py
+        cd flask_db_app
+        pytest test_app.py
+        cd ..
 
