@@ -33,11 +33,11 @@
           
   - ### Harkaren:
       - Last Week’s Goals:
-          - _____________________________________
+          - The goal of this week was to have the machines running we should be able to have the website, database and chatbot working together. But the frontend members modified the previous website to the one that is using flask.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  This week the chatbot was up running and everything was conneceted sucessfully. The chatbot was able to give responses once a question was asked from the database. Along with that we met this week to divide the ALPHA assignment and how each person will wokr on the assignment 
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Will work on the demo and powerpoint with elizabeth so ALPHA is submitted by the due date. 
         
   - ### Elizabeth:
       - Last Week’s Goals:
