@@ -41,11 +41,11 @@
         
   - ### Elizabeth:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  This week we were working on Testing and CI assignment.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  This week working on Alpha assignemnet with Harkaren and present it to the team for monday's submission. 
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Next week finish alpha release and talk to the team regarding the next step in this project. 
         
   - ### Katherine:
       - Last Week’s Goals:
