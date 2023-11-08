@@ -9,7 +9,7 @@ cursor = conn.cursor()
 #cursor.execute("INSERT INTO my_table (name, age) VALUES (?, ?)", ('Jane', 30))
 
 
-cursor.execute ('''INSERT INTO HelpDeskTickets (infoID, question, response, responseDate, category) VALUES
+cursor.execute ('''INSERT OR IGNORE INTO HelpDeskTickets (infoID, question, response, responseDate, category) VALUES
                  (1, 
                  'can someone at TSC check room 10 downstairs in the library and see what the issue with the computer is? We will most likely open a ticket if you can''t revive it but we need to a little more info first .the monitor keeps entering power saver mode, even though the computer is plugged in and on. The screen said that it''s not receiving a signal from the computer. Is there a way to fix this?',
                   'I will put that in the ticket.', 
@@ -18,7 +18,7 @@ cursor.execute ('''INSERT INTO HelpDeskTickets (infoID, question, response, resp
 
 
 cursor.execute('''
-    INSERT INTO HelpDeskTickets (infoID, question, response, responseDate, category)
+    INSERT OR IGNORE INTO HelpDeskTickets (infoID, question, response, responseDate, category)
     VALUES
         (3, 'Room 216 need to turn on the another projector number 2 but it’s not Turning on', 'Check the mode its in, it might need to be in collaboration/ interactive mode. Also you can try turning them on manually on the actual projector. Try a restart of the system', '2023-10-13', 'Projector'),
         (4, 'Do we have any of those usb to headphone Jack adapters in Sutherland or woodland?', 'We do have some in Woodland. I can''t remember if there were any in 218 in those plastic drawers', '2023-10-13', 'Cables'),
@@ -32,7 +32,7 @@ cursor.execute('''
 )
 
 cursor.execute('''
-   INSERT INTO HelpDeskTickets (infoID, question, response, responseDate, category)
+   INSERT OR IGNORE INTO HelpDeskTickets (infoID, question, response, responseDate, category)
    VALUES
        (11, '218 - please go check the print kiosk upstairs in Sutherland and make sure it does not have any error message.', 'Just checked, it''s all good', '2023-10-18', 'Printer'),
        (12, 'Can somebody check if there was a ticket submitted for the library room 10. The professor is Katie Odhner. She wants to be kept in the loop about the progress.', 'That ticket has been submitted and someone will probably follow up tomorrow. Let her know that she is included on the ticket, so updates will probably come by email.', '2023-10-18', 'Ticket'),
@@ -47,7 +47,7 @@ cursor.execute('''
 )
 
 cursor.execute('''
-   INSERT INTO HelpDeskTickets (infoID, question, response, responseDate, category)
+   INSERT OR IGNORE INTO HelpDeskTickets (infoID, question, response, responseDate, category)
    VALUES
        (21, 'mic is not working, not getting on', 'Did you check to make sure the batteries are fresh and inserted correctly. Try pressing the power button a little longer', '2023-09-21', 'Mics'),
        (23, 'I need you to stop in W340 at 9 AM and get the class up and running for a zoom hybrid. Gilya is out today and sent a link in canvas to the students.', 'You will need to have one of the students login to the podium PC and set it up that way.', '2023-09-21', 'Zoom Setup'),
@@ -73,7 +73,7 @@ cursor.execute('''
 
 
 cursor.execute('''
-   INSERT INTO HelpDeskTickets (infoID, question, response, responseDate, category)
+   INSERT OR IGNORE INTO HelpDeskTickets (infoID, question, response, responseDate, category)
    VALUES
        (41, 'We have a last minute request to provide speakers and music in the Sutherland plaza. Please start pulling the sound system down to the plaza to setup along with a mac for sound. I will be coming over shortly.', 'sound system in Andys room. The anchor spund sound system. Take that down along with the speaker cable and stands and MacBook', '2023-09-07', 'Event Setup'),
        (42, 'a student is trying to download a presentation on one of the library desktops and gets an error message. Is there a way to fix to download without getting an error?', 'sounds like they have exceeded their quota.All files stored on desktop/gocuments/downloads/pictures combined only have 1gb total space. They would have to delete old files that no longer need to free up space for new stuff', '2023-09-06', 'Software'),
