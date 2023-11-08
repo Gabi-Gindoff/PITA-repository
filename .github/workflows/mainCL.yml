@@ -1,13 +1,13 @@
 name: CI Build
 
-#on:
-  #push:
-   # branches:
-     # - main
+on:
+  push:
+    branches:
+      - main
 
-  #pull_request:
-   # branches:
-      #- main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
@@ -22,18 +22,17 @@ jobs:
       with:
         python-version: 3.10.8  # Replace with your desired Python version
 
-    #- name: Install expect
-    #  run: sudo apt-get update && sudo apt-get install -y expect
       
     - name: Install dependencies
       run: |
-        pip install -r flask_db_app/requirements.txt
-
+        #pip install -r flask_db_app/requirements.txt
+        pip install poetry
+        poetry install
+          
     - name: Database setup
       run: |
-        python flask_db_app/make_db.py
-        python flask_db_app/pop_db.py
-        # Set up your database here (e.g., create the test database, apply migrations).
+        poetry run python flask_db_app/make_db.py
+        poetry run python flask_db_app/pop_db.py
 
     - name: Run Unit Tests
       run: |
