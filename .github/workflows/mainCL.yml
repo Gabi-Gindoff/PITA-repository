@@ -27,7 +27,9 @@ jobs:
       run: |
         #pip install -r flask_db_app/requirements.txt
         pip install poetry
+        cd flask_db_app
         poetry install
+        cd ..
           
     - name: Database setup
       run: |
