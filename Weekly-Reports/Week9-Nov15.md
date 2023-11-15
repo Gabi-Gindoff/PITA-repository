@@ -26,11 +26,11 @@
         
   - ### Treasure:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Last week we completed the Alpha and made sure all of the builds, tests, and instructions were successful and running.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  The framework of the login system is working for both the users and the admin. Now all that is needed is the fix up and finalize the specifications.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  By next week we will continue to finalize the chatbot and add in any other functions that may be needed for the final release. Also, making sure our instructions and Readme is clear and concise for peer reviews.
           
   - ### Harkaren:
       - Last Week’s Goals:
