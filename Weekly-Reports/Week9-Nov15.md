@@ -49,8 +49,8 @@
         
   - ### Katherine:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Was unable to work on the project last week.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Group met to complete the ALPHA assignment.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Talk to group to see what our next steps are, focus on peer review coming up.
