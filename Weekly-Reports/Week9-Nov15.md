@@ -33,12 +33,12 @@
           
   - ### Harkaren:
       - Last Week’s Goals:
-          - _____________________________________
+          - Last weeks goal was finally having the chatbot up running and everything was conneceted sucessfully. The chatbot was able to give responses once a question was asked from the database. 
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  This week we all met to complete the ALPHA assignment after dividing it last week. Worked with eachother to create the powerpoint that we used to present for our ALPHA assignment. In addition Treasure is looking into implementing a staff login system to use. 
       - Next Week’s Plan:
-          -  ________________________________________________________________
-        
+          -  We will begin to see if anything else can be added to the chatbot to clean it up or add some features . Primarily focusing on our peer review to see if the goals can be met before it happens.
+          -  
   - ### Elizabeth:
       - Last Week’s Goals:
           -  ________________________________________________________________
