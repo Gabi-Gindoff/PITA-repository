@@ -41,11 +41,11 @@
           -  
   - ### Elizabeth:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Last week Harkaren and I started working on the alpha presentation which was due this monday (13Nov).
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  This week as a group we recorded our presentation with a demo for the Alpha assignment and submitted that.
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          - Next week to make sure the project is good for the peer review assignment and do the peer review after the break. 
         
   - ### Katherine:
       - Last Week’s Goals:
