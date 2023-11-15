@@ -17,11 +17,12 @@
   
   - ### Adam:
       - Last Week’s Goals:
-          -  ________________________________________________________________
+          -  Last week were working on trying to implement a login system for both users and an admin. Allowing the users to login via ID, and allowing the admin to view the user history logs according to user ID.
       - This Week's Progress & Issues:
-          -  ________________________________________________________________
+          -  Pivoted to focus on ensuring the alpha release was ready. Updated README file to have the build, test, and run instructions. Tested the application with the directions i made multiple times from scratch successfully 
       - Next Week’s Plan:
-          -  ________________________________________________________________
+          -  Ensure everything is up-to-date for the peer review and nothing breaks until then
+        
         
   - ### Treasure:
       - Last Week’s Goals:
@@ -54,3 +55,5 @@
           -  Group met to complete the ALPHA assignment.
       - Next Week’s Plan:
           -  Talk to group to see what our next steps are, focus on peer review coming up.
+
+      
