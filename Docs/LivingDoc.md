@@ -45,11 +45,9 @@ Non-Operational Use Cases
 
 
 ## How to Build the System
-1. Once you have a new terminal opened (using the steps above found in the getting started section), you can proceed to build the system. All of the following steps are to be done using this terminal.  
-2. First, enter the command “cd flask_db_app” - changes the directory to where the poetry.toml file is installed
-3. Next, “pip install poetry” - this command installs poetry to be able to run the poetry install command.
-4. Lastly, “poetry install” - this command downloads all the dependencies from the poetry.lock file.
+Once you have a new terminal opened (using the steps above found in the getting started section), you can proceed to build the system. All of the following steps are to be done using this terminal.  
 
+Copy and paste the following code into the terminal:
 ```bash
    cd flask_db_app
    pip install poetry
@@ -57,18 +55,9 @@ Non-Operational Use Cases
 ```
 
 ## How to Test the System
-1. Before testing the system, ensure all the steps from the build system instruction are completed. Once the build is complete, you can proceed to testing. 
-2. Ensure you are also in the “flask_db_app” directory, if not you can change it via the “cd flask_db_app” command. If you ever need to go back, you can use the “cd ..” command. 
-3. Next, use the command “poetry run pytest test_app.py” to test the system
-4. The terminal will display the tests as well as if they have passed or failed.
-6. You can also run “python dapp.py” to see all the data currently in the database. In order to run this command, you have to do "pip install -r requirements.txt"
-7. Then, at the bottom of the page, you can use the form to add a row into the database. For the category, put “Testing” so we can easily remove it from the database - you can now view the query on the previous page 
-8. To delete the query, go back to the terminal, hit ctrl c to close the port, and run “python delete_test_from_db.py” 
-9. Now when you run  “python dapp.py” again, you will not see the query that was just added and then deleted.
-10. Go back to the terminal and hit “ctrl c” to close the application
+Before testing the system, ensure all the steps from the build system instruction are completed. Once the build is complete, you can proceed to testing. 
+Copy and paste the following code into the terminal:
 
-
-**Press the keys "Crtl + C" in the terminal to exit the application at any time**
 To test the application:
 ```
    bash
@@ -88,14 +77,12 @@ To delete the new testing entry made by the testing command:
   python delete_test_from_db.py
 ```
 
-## How to Run the System
-1. First, ensure that you are in the “flask_db_app” directory, if not you can change it via the “cd flask_db_app” command.
-2. To run the system after building it, enter “poetry run python app.py” to run the application. A pop-up should appear that prompts you to open the port in a new browser, if not, the link for the webpage with the chatbot will be in the terminal.
-3. Ask the chatbot a question like “Where are the printers located?” and see what it says. 
-4. To exit the application and kill the port, press the keys Ctrl + C on your keyboard.
-5. Note: you can also run the system with "python app.py" if you did the "pip install -r requirements.txt"
+**Press the keys "Crtl + C" in the terminal to exit the application at anytime**
 
-**Press the keys "Crtl + C" in the terminal to exit the application at any time**
+
+## How to Run the System
+Copy and paste the following code into the terminal:
+
 To run the system:
 ```
   bash
@@ -104,6 +91,7 @@ To run the system:
 ```
 To access the website, click either the pop-up that appears in the bottom right or click the link directly from the terminal.
 Doing either of these options will open up a new tab in your browser that you can interact with.
+**Press the keys "Crtl + C" in the terminal to exit the application at any time**
 
 
 
