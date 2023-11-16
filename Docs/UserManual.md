@@ -4,16 +4,17 @@
 
 ## Instructions for Using System
 
-Step 1: Click on the interactive text box
-![image](https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/e28418ce-fb31-4587-92ab-0218c65674c0)
-replace![ image]([https://your-image-url.type](https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/e28418ce-fb31-4587-92ab-0218c65674c0)) with <img src="[https://your-image-url.type](https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/e28418ce-fb31-4587-92ab-0218c65674c0)" width="100" height="100"
+**Step 1**: Click on the interactive text box.  
+  
+<img src="https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/e28418ce-fb31-4587-92ab-0218c65674c0" width=50% height=50%>
 
-Step 2: Type your question and click the "Enter" key or the arrow sign to ask the chatbot.
-![image](https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/8d1a28da-abb6-42b3-b36b-6aed19ad3977)
+**Step 2:** Type your question and click the "Enter" key or the arrow sign to ask the chatbot.  
 
-Step 3: Chatbot will display your answered question, you can repeat these steps as many times as needed.
-![image](https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/275a4f4b-f7fa-4958-b37d-595bb2bd827e)
+<img src="https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/8d1a28da-abb6-42b3-b36b-6aed19ad3977" width=50% height=50%>
 
+**Step 3**: The Chatbot will display your answered question, you can repeat these steps as many times as needed.  
+
+<img src="https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/275a4f4b-f7fa-4958-b37d-595bb2bd827e" width=50% height=50%>
 
 
 ## How to Build the System
