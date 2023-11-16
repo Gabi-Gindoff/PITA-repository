@@ -133,23 +133,10 @@ CI
 
 
 ## Documentation
-Link to developer guidelines (work in progress…)
-- Repo structure
-- Build software
-- Adding a test case
-- Test software
-- Run software
-- CI setup
-- Viewing build history
-- How to create an issue
+- **Developer Guidelines**: [Developer Guidelines](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/DeveloperGuidelines.md)
+- **User Manual**: [User Manual](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/UserManual.md)
+- **Living Doc**: [Living Doc](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/LivingDoc)
 
-Link to user manual  (work in progress…)
-- High level description of system
-- Instructions to use system
-- Install software
-- Run software
-- Use the software
-- How to file bug report
 
 
 
@@ -162,7 +149,3 @@ Link to user manual  (work in progress…)
 - Elizabeth Johney: Backend Engineer
 - Katherine Banis: Backend Engineer
 
-
-
-## Living Doc
-https://docs.google.com/document/d/147LFp_p5uQFZJzLmJBxlh29JN7Pi4uCfpUV91k1qhw8/edit?usp=sharing
