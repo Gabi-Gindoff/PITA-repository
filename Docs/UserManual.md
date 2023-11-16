@@ -23,7 +23,7 @@ PITA is built on a technological stack that synergizes the collaborative power o
 - **Step 3:** When the codespace opens, go to the three horizontal lines, select terminal, new terminal. 
 - **Step 4:** Select “continue working in GitHub codespaces” 
 - **Step 5:** A drop down menu should appear at the top of your screen, select either option for your codespace (doesn’t matter if you choose 2 or 4 cores). 
-- **Step 6:** You can now use the terminal to run the program,fFollow the directions below to run the software.
+- **Step 6:** You can now use the terminal to run the program, follow the directions below to run the software.
 
 ## How to Run Software
 Copy and paste the following code into the terminal to run the software:
