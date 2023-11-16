@@ -5,6 +5,8 @@
 ## Instructions for Using System
 
 Step 1: Click on the interactive text box
+![image](https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/be1b8f91-f820-43c0-8277-8d073306df0a)
+
 
 Step 2: Type your question and click enter or the arrow sign to ask the chatbot.
 
