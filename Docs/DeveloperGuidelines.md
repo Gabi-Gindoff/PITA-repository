@@ -1,20 +1,80 @@
 # Developer Guidelines
 
-## Repo Structure
+## Table of Contents
+- [Repository Structure](link)
+- [Add New Test Case](link)
+- [Machine Prerequisites](link)
+- [Building Software](link)
+- [Testing Software](link)
+- [CI Setup](link)
+
+
+
+## Repository Structure
 Main Branch 
-- Docs: hosts our userManual,  developerGuidelines, and livingDoc files
-- WeeklyReports: hosts our weekly updates and progress reports
-- Flask_db_app: hosts all files necessary for the website, our database and our chatbot, as well as the connections between each
+- `Docs`: hosts our userManual,  developerGuidelines, and livingDoc files
+- `WeeklyReports`: hosts our weekly updates and progress reports
+- `Flask_db_app`: hosts all files necessary for the website, our database and our chatbot, as well as the connections between each
+- `.github/workflows`: hosts our yml file for the CI
+- `README.md`: Top level description and overview of the project
 
 
-## How to Add a New Test Case
+## How to Add a New Test Case with Pytest
 
+### 1. Clone the Repository:
+
+```bash
+git clone <https://github.com/Gabi-Gindoff/PITA-repository/tree/main>
+cd <PITA-repository>
+```
+
+### 2. Create a New Test:
+
+- Navigate to the directory where you want to add the test.
+- Create a new Python file (e.g., `test_new_feature.py`) for your test.
+
+### 3. Write the Test Case:
+
+- Open the newly created Python file and write your test using the pytest framework.
+- Example test file (`test_new_feature.py`):
+
+  ```python
+  import pytest
+  from your_module import your_function
+
+  def test_new_feature():
+      result = your_function(input_data)
+      assert result == expected_output
+  ```
+
+
+### 4. Run Tests Locally:
+
+- Run pytest to ensure your new test passes locally:
+
+  ```bash
+  pytest test_new_feature.py
+  ```
+
+### 5. Commit & Push Changes:
+
+- Add, commit and push your changes to the local repository:
+
+  ```bash
+  git add tests/test_new_feature.py
+  git commit -m "Add new test case for feature XYZ"
+  git push origin <branch_name>
+  ```
 
 
 ## Machine Prerequisites
-Runs using ubuntu linux (can be run on any computer if using codespaces)
 
-Step 1: Open Codespace
+This project is configured to run on an Ubuntu-based environment. GitHub Codespaces is utilized for development, and the build process specified in the YAML file (`github/workflows/your_workflow.yml`) is set to run on `ubuntu-latest`.
+
+No additional machine prerequisites are required, as the necessary dependencies and tools are provided by the GitHub Codespaces environment.
+
+
+## Open Environment (Codespaces)
 1. Navigate to our repo at https://github.com/Gabi-Gindoff/PITA-repository/tree/main
 2. Press the “.” key on your keyboard
 3. When the codespaces opens, go to the three horizontal lines, select terminal, new terminal.
@@ -50,5 +110,40 @@ Step 1: Open Codespace
 
 ## CI Setup & Viewing Build History 
 Our CI can be found in the .github/workflows folder
+
+
+# CI Build Workflow
+
+This GitHub Actions workflow (`CI Build`) is triggered on `push` to the `main` branch and on `pull_request` to the `main` branch. It defines a series of jobs to build and test the project.
+
+## Build Job
+
+- **Runs on:** Ubuntu-latest
+- **Steps:**
+  1. **Checkout Code:** Uses the `actions/checkout@v2` action to fetch the repository code.
+  2. **Set up Python:** Uses the `actions/setup-python@v2` action to set up Python 3.10.8.
+  3. **Install Dependencies:** Installs project dependencies using Poetry.
+  4. **Database Setup:** Runs scripts (`make_db.py` and `pop_db.py`) to set up and populate the database.
+  5. **Run Unit Tests:** Installs pytest and runs unit tests defined in `test_app.py`.
+
+## How it works:
+
+1. **Code Checkout:** The workflow starts by fetching the latest code from the repository.
+2. **Python Setup:** Configures the Python environment with version 3.10.8.
+3. **Dependency Installation:** Installs project dependencies using Poetry.
+4. **Database Setup:** Executes scripts to create and populate the database.
+5. **Unit Testing:** Installs pytest and runs unit tests on the Flask application.
+
+This workflow is designed to ensure that the project builds successfully, dependencies are installed, the database is properly set up, and unit tests pass.
+
+
+## View Build History
+1. Open your GitHub repository
+2. Click on the "Actions" tab
+3. Select the workflow you want to view
+4. View the list of workflow runs
+5. Click on a specific run to view details
+6. Navigate through the build history
+
 
 
