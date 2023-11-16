@@ -6,8 +6,7 @@
 
 Step 1: Click on the interactive text box
 ![image](https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/e28418ce-fb31-4587-92ab-0218c65674c0)
-![Example Image](https://github.com/Gabi-Gindoff/PITA-repository/raw/main/assets/128711834/e28418ce-fb31-4587-92ab-0218c65674c0 s=300)
-
+replace![ image]([https://your-image-url.type](https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/e28418ce-fb31-4587-92ab-0218c65674c0)) with <img src="[https://your-image-url.type](https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/e28418ce-fb31-4587-92ab-0218c65674c0)" width="100" height="100"
 
 Step 2: Type your question and click the "Enter" key or the arrow sign to ask the chatbot.
 ![image](https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/8d1a28da-abb6-42b3-b36b-6aed19ad3977)
