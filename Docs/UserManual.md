@@ -1,8 +1,20 @@
 # User Manual
 
 
+## Table of Contents
+- [High Level Description](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/UserManual.md#high-level-description-of-system)
+- [How to Install Software](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/UserManual.md#how-to-install-software)
+- [How to Run Software](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/UserManual.md#how-to-run-software)
+- [How to Use Software](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/UserManual.md#how-to-use-software)
+
+
 
 ## High Level Description of System
+
+PITA (Penn State Information Technology Advisor) is an innovative chatbot meticulously crafted to empower IT student workers at Penn State Abington with efficient troubleshooting capabilities. Serving as a virtual IT assistant, PITA utilizes an intuitive conversational interface to promptly address common IT issues and provide step-by-step solutions. The chatbot's core objectives include reducing IT response times, enhancing user satisfaction, and establishing a robust knowledge base from existing documents. With a focus on user-friendly interactions and leveraging AI-driven conversational experiences, PITA aims to deliver a minimum viable product that significantly adds value to the IT department, ensuring adaptability and expansion over time.
+
+
+PITA is built on a technological stack that synergizes the collaborative power of GitHub, the web development capabilities of Flask, the conversational intelligence of DialoGPT, and the efficient data management offered by SQLite. This integrated technology stack ensures PITA's effectiveness in delivering intuitive and responsive IT support for both IT student workers and end-users at Penn State Abington.
 
 
 ## How to Install Software
@@ -25,6 +37,10 @@
 **Step 3**: The Chatbot will display your answered question, you can repeat these steps as many times as needed.  
 
 <img src="https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/275a4f4b-f7fa-4958-b37d-595bb2bd827e" width=50% height=50%>
+
+
+
+
 
 
 ## How to Run the System
