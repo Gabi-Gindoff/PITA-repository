@@ -68,7 +68,7 @@ Non-Operational Use Cases
 10. Go back to the terminal and hit “ctrl c” to close the application
 
 
-**Press the keys "Crtl + C" in the terminal to exit the application at anytime**
+**Press the keys "Crtl + C" in the terminal to exit the application at any time**
 To test the application:
 ```
    bash
@@ -88,9 +88,6 @@ To delete the new testing entry made by the testing command:
   python delete_test_from_db.py
 ```
 
-
-  
-
 ## How to Run the System
 1. First, ensure that you are in the “flask_db_app” directory, if not you can change it via the “cd flask_db_app” command.
 2. To run the system after building it, enter “poetry run python app.py” to run the application. A pop-up should appear that prompts you to open the port in a new browser, if not, the link for the webpage with the chatbot will be in the terminal.
@@ -98,6 +95,15 @@ To delete the new testing entry made by the testing command:
 4. To exit the application and kill the port, press the keys Ctrl + C on your keyboard.
 5. Note: you can also run the system with "python app.py" if you did the "pip install -r requirements.txt"
 
+**Press the keys "Crtl + C" in the terminal to exit the application at any time**
+To run the system:
+```
+  bash
+  cd flask_db_app
+  poetry run python app.py
+```
+To access the website, click either the pop-up that appears in the bottom right or click the link directly from the terminal.
+Doing either of these options will open up a new tab in your browser that you can interact with.
 
 
 
