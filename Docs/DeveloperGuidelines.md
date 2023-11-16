@@ -1,12 +1,13 @@
 # Developer Guidelines
 
 ## Table of Contents
-- [Repository Structure](link)
-- [Add New Test Case](link)
-- [Machine Prerequisites](link)
-- [Building Software](link)
-- [Testing Software](link)
-- [CI Setup](link)
+- [Repository Structure](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/DeveloperGuidelines.md#repository-structure)
+- [Add New Test Case](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/DeveloperGuidelines.md#how-to-add-a-new-test-case-with-pytest)
+- [Machine Prerequisites](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/DeveloperGuidelines.md#machine-prerequisites)
+- [Building Software](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/DeveloperGuidelines.md#how-to-build-the-software)
+- [Testing Software](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/DeveloperGuidelines.md#how-to-test-the-software)
+- [Running Software](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/DeveloperGuidelines.md#how-to-run-the-software)
+- [CI Setup](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/DeveloperGuidelines.md#ci-build-workflow)
 
 
 
@@ -112,11 +113,11 @@ No additional machine prerequisites are required, as the necessary dependencies 
 Our CI can be found in the .github/workflows folder
 
 
-# CI Build Workflow
+### CI Build Workflow
 
 This GitHub Actions workflow (`CI Build`) is triggered on `push` to the `main` branch and on `pull_request` to the `main` branch. It defines a series of jobs to build and test the project.
 
-## Build Job
+### Build Job
 
 - **Runs on:** Ubuntu-latest
 - **Steps:**
@@ -126,7 +127,7 @@ This GitHub Actions workflow (`CI Build`) is triggered on `push` to the `main` b
   4. **Database Setup:** Runs scripts (`make_db.py` and `pop_db.py`) to set up and populate the database.
   5. **Run Unit Tests:** Installs pytest and runs unit tests defined in `test_app.py`.
 
-## How it works:
+### How it works:
 
 1. **Code Checkout:** The workflow starts by fetching the latest code from the repository.
 2. **Python Setup:** Configures the Python environment with version 3.10.8.
@@ -137,7 +138,7 @@ This GitHub Actions workflow (`CI Build`) is triggered on `push` to the `main` b
 This workflow is designed to ensure that the project builds successfully, dependencies are installed, the database is properly set up, and unit tests pass.
 
 
-## View Build History
+### View Build History
 1. Open your GitHub repository
 2. Click on the "Actions" tab
 3. Select the workflow you want to view
