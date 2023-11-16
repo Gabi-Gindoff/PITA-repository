@@ -6,9 +6,10 @@
 
 
 ## How to Install Software
-
+- repo, codescpaces, install poetry and whatknot
 
 ## How to Run Software
+- commands to get app.py up 
 
 
 ## How to Use Software
