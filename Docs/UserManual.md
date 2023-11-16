@@ -1,8 +1,17 @@
 # User Manual
 
-## High Level Description of the System
 
-## Instructions for Using System
+
+## High Level Description of System
+
+
+## How to Install Software
+
+
+## How to Run Software
+
+
+## How to Use Software
 
 **Step 1**: Click on the interactive text box.  
   
@@ -15,6 +24,11 @@
 **Step 3**: The Chatbot will display your answered question, you can repeat these steps as many times as needed.  
 
 <img src="https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/275a4f4b-f7fa-4958-b37d-595bb2bd827e" width=50% height=50%>
+
+
+
+
+
 
 
 ## How to Build the System
