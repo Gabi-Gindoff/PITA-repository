@@ -5,8 +5,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 
-tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium")
-model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
+tokenizer = AutoTokenizer.from_pretrained("TinyLlama/TinyLlama-1.1B-step-50K-105b")
+model = AutoModelForCausalLM.from_pretrained("TinyLlama/TinyLlama-1.1B-step-50K-105b")
 
 import sqlite3
 
@@ -52,7 +52,7 @@ def get_chat_response(user_input):
 
     # Set a similarity threshold, below which it might not be considered a match
     if best_score < 0.5:
-        return "Sorry, I don't have a response to that."
+        return "I don't have an answer to that, you may find your answer here: https://www.it.psu.edu/services/"
     else:
         return matched_response
 
