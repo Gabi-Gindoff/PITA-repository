@@ -56,26 +56,19 @@ Doing either of these options will open up a new tab in your browser that you ca
 
 ### As an IT Student Worker
 - **Step 1:** Enter your user ID (any integer) into the User ID textbox, then press 'User Login'.
-<img width="384" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/57bb386b-2102-4036-b146-77cf00f3bba2">
-### As an IT Student Worker
-- **Step 1:** Enter your user ID (any integer) into the User ID textbox, then press 'User Login'.
-<img width="384" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/57bb386b-2102-4036-b146-77cf00f3bba2">
+  - <img width="384" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/57bb386b-2102-4036-b146-77cf00f3bba2">
 
 - **Step 2:** Type your question and click the "Enter" key or the arrow sign to ask the chatbot.  
-<img width="542" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/366d29dd-c519-44b3-b48d-187a0a781250">
-<img width="542" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/366d29dd-c519-44b3-b48d-187a0a781250">
+  - <img width="542" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/366d29dd-c519-44b3-b48d-187a0a781250">
+
+
 
 ### As an IT Admin
 - **Step 1:** Enter the adimin password (admin_password) into the Admin Password textbox, then press 'Admin Login'.
-<img width="373" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/89a29d07-5400-48aa-9946-8ca78ce61e80">
-### As an IT Admin
-- **Step 1:** Enter the adimin password (admin_password) into the Admin Password textbox, then press 'Admin Login'.
-<img width="373" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/89a29d07-5400-48aa-9946-8ca78ce61e80">
+  - <img width="373" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/89a29d07-5400-48aa-9946-8ca78ce61e80">
 
 - **Step 2:** Enter the User ID for the student whose history you want to view and hit 'Get Chat Logs'.
-  <img width="429" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/0dbcc2f5-f7ea-461f-85c7-4efc2d4de06c">
-- **Step 2:** Enter the User ID for the student whose history you want to view and hit 'Get Chat Logs'.
-  <img width="429" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/0dbcc2f5-f7ea-461f-85c7-4efc2d4de06c">
+  - <img width="429" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/0dbcc2f5-f7ea-461f-85c7-4efc2d4de06c">
 
 - **Step 3:** Now you can view that users history
-<img width="801" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/0e847d26-b33d-4ef1-8259-50ae0490c7cf">
+  - <img width="801" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/0e847d26-b33d-4ef1-8259-50ae0490c7cf">
