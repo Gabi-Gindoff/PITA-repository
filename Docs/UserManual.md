@@ -26,9 +26,15 @@ PITA is built on a technological stack that synergizes the collaborative power o
 - **Step 6:** You can now use the terminal to run the program, follow the directions below to run the software.
 
 ## How to Run Software
-Copy and paste the following code into the terminal to run the software:
+Note: in order to run the software you have to have poetry installed - you can skip the following if you already have poetry installed
+```bash
+  cd flask_db_app
+  pip install poetry
+  poetry install
 ```
-  bash
+
+Copy and paste the following code into the terminal to run the software: (
+```bash
   cd flask_db_app
   poetry run python app.py
 ```
@@ -39,15 +45,20 @@ Doing either of these options will open up a new tab in your browser that you ca
 
 ## How to Use Software
 
-- **Step 1**: Click on the interactive text box.  
-  
-<img src="https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/e28418ce-fb31-4587-92ab-0218c65674c0" width=50% height=50%>
+### As an IT Student Worker
+- **Step 1:** Enter your user ID (any integer) into the User ID textbox, then press 'User Login'.
+<img width="384" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/57bb386b-2102-4036-b146-77cf00f3bba2">
 
 - **Step 2:** Type your question and click the "Enter" key or the arrow sign to ask the chatbot.  
+<img width="542" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/366d29dd-c519-44b3-b48d-187a0a781250">
 
-<img src="https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/8d1a28da-abb6-42b3-b36b-6aed19ad3977" width=50% height=50%>
+### As an IT Admin
+- **Step 1:** Enter the adimin password (admin_password) into the Admin Password textbox, then press 'Admin Login'.
+<img width="373" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/89a29d07-5400-48aa-9946-8ca78ce61e80">
 
-- **Step 3**: The Chatbot will display your answered question, you can repeat these steps as many times as needed.  
+- **Step 2:** Enter the User ID for the student whose history you want to view and hit 'Get Chat Logs'.
+  <img width="429" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/0dbcc2f5-f7ea-461f-85c7-4efc2d4de06c">
 
-<img src="https://github.com/Gabi-Gindoff/PITA-repository/assets/128711834/275a4f4b-f7fa-4958-b37d-595bb2bd827e" width=50% height=50%>
+- **Step 3:** Now you can view that users history 
+<img width="801" alt="image" src="https://github.com/Gabi-Gindoff/PITA-repository/assets/144366612/0e847d26-b33d-4ef1-8259-50ae0490c7cf">
 
