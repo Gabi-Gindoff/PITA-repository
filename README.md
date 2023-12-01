@@ -27,14 +27,20 @@ The key goals for the PITA chatbot project include:
 Operational Use Cases
 - Resource for IT student workers when presented with questions beyond their technical knowledge
   - IT student workers can open the chatbot and ask it questions about Abington’s Information Technology Department and receive answers to better assist faculty.
+- IT admins to determine if more training is necessary
+  -  Admin can login to view user history in order to determine if students need more training to better support staff
+- Authenticating user IT admin
+  - Main admin password that can be used in order to view student chatbot history
 
 Non-Operational Use Cases
-- IT admins to determine if more training is necessary
 - Removing outdated data from the IT department database
+  - Can do this as a developer using the form when running dapp.py
 - Adding new information to the IT department database
+  - Can do this as a developer using the form when running dapp.py
 - IT department to keep track of common technical issues
-- Authenticating user IT admin
-  - In order for these use cases to be operational, we need to implement a login system, which we are currently working on in addition to implementing a way to store user queries so IT admin can view the overall history as well as each student’s previously asked questions.  
+  - Wanted to implement an analysis page with common issues 
+    
+
 
 
 
