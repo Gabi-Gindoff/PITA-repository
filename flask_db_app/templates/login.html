@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #0E2B58;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            width: 400px;
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        .form-group {
+            margin: 10px 0;
+        }
+
+        label {
+            color: white;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn-primary {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #45a049;
+        }
+
+        .btn-danger {
+            background-color: #c23616;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background-color: #a2250f;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Login Page</h1>
+        <p>
+        
+        <form action="/user_login" method="POST">
+            <div class="form-group">
+                <p>
+                <label for="user_id">User ID:</label>
+            </p>
+                <input type="text" name="user_id" required>
+            </div>
+            <p>
+            <button type="submit" class="btn btn-primary">User Login</button>
+        </p>
+        </form>
+    </p>
+    <p>
+        <form action="/admin_login" method="POST">
+            <div class="form-group">
+                <p>
+                <label for="password">Admin Password:</label>
+            </p>
+                <input type="password" name="password" required>
+            </div>
+            <p>
+            <button type="submit" class="btn btn-danger">Admin Login</button>
+        </p>
+        </form>
+    </p>
+    </div>
+</body>
+</html>
