@@ -16,7 +16,7 @@ The key goals for the PITA chatbot project include:
 
 
 ## Repo Structure
-Main Branch 
+Main Branch
 - Docs: hosts our userManual and DevDocumentation files
 - WeeklyReports: hosts our weekly updates and progress reports
 - Flask_db_app: hosts all files necessary for the website and our database, as well as the connection between the two
@@ -38,8 +38,8 @@ Non-Operational Use Cases
 - Adding new information to the IT department database
   - Can do this as a developer using the form when running dapp.py
 - IT department to keep track of common technical issues
-  - Wanted to implement an analysis page with common issues 
-    
+  - Wanted to implement an analysis page with common issues
+   
 
 
 
@@ -47,7 +47,7 @@ Non-Operational Use Cases
 
 ## Getting Started
 1. Navigate to our repository at https://github.com/Gabi-Gindoff/PITA-repository/tree/main
-2. Open Codespaces by pressing the “.” key on your keyboard. When the codespaces opens, go to the three horizontal lines, select terminal, new terminal. Select “continue working in GitHub codespaces” and then select whichever instance type you want for your codespace (doesn’t matter if you choose 2 or 4 cores). You can now use the terminal to build, test, and run the program.   
+2. Open Codespaces by pressing the “.” key on your keyboard. When the codespaces opens, go to the three horizontal lines, select terminal, new terminal. Select “continue working in GitHub codespaces” and then select whichever instance type you want for your codespace (doesn’t matter if you choose 2 or 4 cores). You can now use the terminal to build, test, and run the program.  
 
 
 ## How to Build the System
@@ -61,7 +61,7 @@ Copy and paste the following code into the terminal:
 ```
 
 ## How to Test the System
-Before testing the system, ensure all the steps from the build system instruction are completed. Once the build is complete, you can proceed to testing. 
+Before testing the system, ensure all the steps from the build system instruction are completed. Once the build is complete, you can proceed to testing.
 Copy and paste the following code into the terminal:
 
 To test the application:
@@ -104,24 +104,24 @@ Doing either of these options will open up a new tab in your browser that you ca
 ## Technical Processes
 
 Version control
-- Our project is hosted on Github which comes with Git and is therefore handling our version control. We created a public repository named PITA-repository and have been utilizing the Codespaces within GitHub to run our program. 
-  - https://docs.github.com/en/get-started/using-git/about-git#about-version-control-and-git 
+- Our project is hosted on Github which comes with Git and is therefore handling our version control. We created a public repository named PITA-repository and have been utilizing the Codespaces within GitHub to run our program.
+  - https://docs.github.com/en/get-started/using-git/about-git#about-version-control-and-git
 
 Bug tracking
-- We are using GitHub Issues for bug tracking. Our issues can be found by going to the issues tab within our repository ( https://github.com/Gabi-Gindoff/PITA-repository/issues). Using this tab we can add a new issue, comment on an ongoing issue, or close a fixed issue. We have been using two labels, for backend and frontend so each team knows what bugs they have to work on. 
-  - https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues 
+- We are using GitHub Issues for bug tracking. Our issues can be found by going to the issues tab within our repository ( https://github.com/Gabi-Gindoff/PITA-repository/issues). Using this tab we can add a new issue, comment on an ongoing issue, or close a fixed issue. We have been using two labels, for backend and frontend so each team knows what bugs they have to work on.
+  - https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues
 
 Build system
-- We are using Poetry for our build system. In order to build the program, navigate to the codespaces using the above instructions and then use the step by step directions in the READ.me to install and run poetry. 
-  - https://python-poetry.org/docs/pyproject/ 
+- We are using Poetry for our build system. In order to build the program, navigate to the codespaces using the above instructions and then use the step by step directions in the READ.me to install and run poetry.
+  - https://python-poetry.org/docs/pyproject/
 
 Testing
-- We are using Pytest for our testing system. In order to test the program, navigate to the codespaces using the above instructions and then use the step by step directions in the READ.me to install and run Pytest. 
-  - https://docs.pytest.org/en/7.1.x/getting-started.html 
+- We are using Pytest for our testing system. In order to test the program, navigate to the codespaces using the above instructions and then use the step by step directions in the READ.me to install and run Pytest.
+  - https://docs.pytest.org/en/7.1.x/getting-started.html
 
 CI
 - We are using Github Actions for our continuous integration. To do this, we navigated to the actions tab within the repository ( https://github.com/Gabi-Gindoff/PITA-repository/actions) and created a new workflow. We wrote a new yml file that fit our needs for CI for this project. This file can be found by going to (PITA-repository/.github/workflows/mainCL.yml). This workflow named "CI Build" is triggered on both push events to the main branch and pull requests targeting the main branch. The workflow is designed to build, test, and set up our Python project.
-  - https://docs.github.com/en/actions/automating-builds-and-tests/about-continuous-integration 
+  - https://docs.github.com/en/actions/automating-builds-and-tests/about-continuous-integration
  
 
 
@@ -142,4 +142,3 @@ CI
 - Treasure Davis: UI Design/ Frontend Engineer
 - Elizabeth Johney: Backend Engineer
 - Katherine Banis: Backend Engineer
-

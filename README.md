@@ -38,8 +38,8 @@ Non-Operational Use Cases
 - Adding new information to the IT department database
   - Can do this as a developer using the form when running dapp.py
 - IT department to keep track of common technical issues
-  - Wanted to implement an analysis page with common issues 
-    
+  - Wanted to implement an analysis page with common issues
+   
 
 
 
@@ -48,7 +48,7 @@ Non-Operational Use Cases
 
 ## Getting Started
 1. Navigate to our repository at https://github.com/Gabi-Gindoff/PITA-repository/tree/main
-2. Open Codespaces by pressing the “.” key on your keyboard. When the codespaces opens, go to the three horizontal lines, select terminal, new terminal. Select “continue working in GitHub codespaces” and then select whichever instance type you want for your codespace (doesn’t matter if you choose 2 or 4 cores). You can now use the terminal to build, test, and run the program.   
+2. Open Codespaces by pressing the “.” key on your keyboard. When the codespaces opens, go to the three horizontal lines, select terminal, new terminal. Select “continue working in GitHub codespaces” and then select whichever instance type you want for your codespace (doesn’t matter if you choose 2 or 4 cores). You can now use the terminal to build, test, and run the program.  
 
 
 ## How to Build the System
@@ -61,38 +61,34 @@ Copy and paste the following code into the terminal:
 ```
 
 ## How to Test the System
-Before testing the system, ensure all the steps from the build system instruction are completed. Once the build is complete, you can proceed to testing. 
+Before testing the system, ensure all the steps from the build system instruction are completed. Once the build is complete, you can proceed to testing.
 Copy and paste the following code into the terminal:
 
 To test the application:
-```
-   bash
+```bash
    cd flask_db_app
    poetry run pytest test_app.py
 ```
 To see data in database:
-```
-  bash
+```bash
   cd flask_db_app
   poetry run python dapp.py
 ```
 To delete the new testing entry made by the testing command:
-```
-  bash
+```bash
   cd flask_db_app
   python delete_test_from_db.py
 ```
 
 **Press the keys "Crtl + C" in the terminal to exit the application at anytime**
 
-  
+ 
 
 ## How to Run the System
 Copy and paste the following code into the terminal:
 
 To run the system:
-```
-  bash
+```bash
   cd flask_db_app
   poetry run python app.py
 ```
@@ -109,4 +105,3 @@ Doing either of these options will open up a new tab in your browser that you ca
 - Treasure Davis: UI Design/ Frontend Engineer
 - Elizabeth Johney: Backend Engineer
 - Katherine Banis: Backend Engineer
-
