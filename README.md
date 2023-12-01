@@ -65,20 +65,17 @@ Before testing the system, ensure all the steps from the build system instructio
 Copy and paste the following code into the terminal:
 
 To test the application:
-```
-   bash
+```bash
    cd flask_db_app
    poetry run pytest test_app.py
 ```
 To see data in database:
-```
-  bash
+```bash
   cd flask_db_app
   poetry run python dapp.py
 ```
 To delete the new testing entry made by the testing command:
-```
-  bash
+```bash
   cd flask_db_app
   python delete_test_from_db.py
 ```
@@ -91,8 +88,7 @@ To delete the new testing entry made by the testing command:
 Copy and paste the following code into the terminal:
 
 To run the system:
-```
-  bash
+```bash
   cd flask_db_app
   poetry run python app.py
 ```
