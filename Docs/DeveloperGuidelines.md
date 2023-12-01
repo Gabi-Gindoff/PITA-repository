@@ -96,6 +96,13 @@ No additional machine prerequisites are required, as the necessary dependencies 
 ```
 
 
+```bash
+   cd flask_db_app
+   pip install poetry
+   poetry install
+```
+
+
 ## How to Test the Software
 1. Before testing the system, ensure all the steps from the build system instruction are completed. Once the build is complete, you can proceed to testing.
 2. Ensure you are also in the “flask_db_app” directory, if not you can change it via the “cd flask_db_app” command. If you ever need to go back, you can use the “cd ..” command.
@@ -124,6 +131,23 @@ To delete the new testing entry made by the testing command:
 ```
 
 
+```bash
+   cd flask_db_app
+   poetry run pytest test_app.py
+```
+
+To see data in database:
+```bash
+  cd flask_db_app
+  poetry run python dapp.py
+```
+To delete the new testing entry made by the testing command:
+```bash
+  cd flask_db_app
+  python delete_test_from_db.py
+```
+
+
 
 ## How To Run the Software
 1. First, ensure that you are in the “flask_db_app” directory, if not you can change it via the “cd flask_db_app” command.
@@ -132,7 +156,16 @@ To delete the new testing entry made by the testing command:
 5. To view user's history: Enter the admin password and click 'Admin Login'. Then enter the ID for the user you want to lookup and click 'Get Chat Logs' to view that user's chatbot history.
 6. To exit the application and kill the port, press the keys Ctrl + C on your keyboard.
 7. Note: you can also run the system with "python app.py" if you did the "pip install -r requirements.txt"
+4. To Ask the chatbot a question: Enter an integer for the user ID and click 'User Login'. Ask the chatbot a question like “Where are the printers located?” and see what it says.
+5. To view user's history: Enter the admin password and click 'Admin Login'. Then enter the ID for the user you want to lookup and click 'Get Chat Logs' to view that user's chatbot history.
+6. To exit the application and kill the port, press the keys Ctrl + C on your keyboard.
+7. Note: you can also run the system with "python app.py" if you did the "pip install -r requirements.txt"
 
+
+```bash
+  cd flask_db_app
+  poetry run python app.py
+```
 
 ```bash
   cd flask_db_app
