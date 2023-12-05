@@ -1,6 +1,24 @@
 #  PITA - Penn State Information Technology Advisor
 
 
+   # Table of Contents
+
+- [PITA](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/README.md#pita---penn-state-information-technology-advisor)
+    - [Product Description](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/README.md#product-description)
+    - [Documentation](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/README.md#documentation)
+    - [Use Cases](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/README.md#use-cases)
+    - [Getting Started](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/README.md#getting-started)
+    - [How to Build the System](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/README.md#how-to-build-the-system)
+    - [How to Test the System](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/README.md#how-to-test-the-system)
+    - [How to Run the System](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/README.md#how-to-run-the-system)
+    - [Team Info](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/README.md#team-info)
+
+- [Developer Guidelines](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/DeveloperGuidelines.md)
+- [User Manual](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/UserManual.md)
+- [Living Doc](https://github.com/Gabi-Gindoff/PITA-repository/blob/main/Docs/LivingDoc)
+
+    
+
 ## Product Description
 PITA is a chatbot for the Penn State Abington IT Student Workers to utilize when they are faced with an issue they can not solve and need additional assistance with troubleshooting for common IT issues. This chatbot will enable the IT student workers to quickly retrieve answers to help faculty and students in an efficient manner. PITA answers common IT issues and questions, looks up details in the knowledge base, and provides step by step solutions. PITA serves as a fast and personalized virtual IT assistant. The chatbot provides an intuitive conversational interface for users to get help with troubleshooting, university software, and other technical problems.
 
